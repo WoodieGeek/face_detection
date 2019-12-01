@@ -5,7 +5,6 @@ import sys
 
 image_name = sys.argv[1]
 print(image_name)
-# image_name = "bad_faces.jpg"
 
 img = cv2.cvtColor(cv2.imread(image_name), cv2.COLOR_BGR2RGB)
 detector = MTCNN()
